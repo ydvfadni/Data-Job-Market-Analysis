@@ -11,13 +11,13 @@ This project involves a comprehensive end-to-end analysis of job market data to 
 * **Insight Generation:** Interpreting quantitative results to derive actionable business and career insights.
 
 ## Table of Contents
-1.  [Key Insights & Executive Summary](#key-insights--executive-summary)
-2.  [Top In-Demand Skills Analysis](#top-in-demand-skills-analysis)
-3.  [Skill Value (Salary) Analysis](#skill-value-salary-analysis)
-4.  [Snapshots](#snapshots)
-5.  [Job Role & Compensation Analysis](#job-role--compensation-analysis)
-6.  [Skill Density & Remote Work Trends](#skill-density--remote-work-trends)
-7.  [Data Source](#data-source)
+1.  [Key Insights & Executive Summary](#1.-key-insights--executive-summary)
+2.  [Top In-Demand Skills Analysis](#2.-top-in-demand-skills-analysis)
+3.  [Skill Value (Salary) Analysis](#3.-skill-value-salary-analysis)
+4.  [Snapshots](#4.-snapshots)
+5.  [Job Role & Compensation Analysis](#5.-job-role--compensation-analysis)
+6.  [Skill Density & Remote Work Trends](#6.-skill-density--remote-work-trends)
+7.  [Data Source](#7.-data-source)
 
 ---
 
