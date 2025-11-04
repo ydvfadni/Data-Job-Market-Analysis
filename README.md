@@ -4,7 +4,7 @@
 This project involves a comprehensive end-to-end analysis of job market data to uncover key trends in required skills, corresponding compensation, and work arrangements across various data-related roles. The analysis was performed directly on raw job posting data, demonstrating proficiency in data wrangling and statistical summary generation.
 
 **Skills Demonstrated:**
-* **Data Cleaning and Preprocessing:** Handling missing values, converting string representations of lists (`job_skills`) into usable list structures (`ast.literal_eval`).
+* **Data Cleaning and Preprocessing:** Handling missing values, converting string representations of lists (`job_skills`) into usable list structures.
 * **Data Transformation & Aggregation:** Creating new features (e.g., skill count), exploding complex data structures (skills), and calculating aggregate statistics (median salary, average skills per job).
 * **Statistical Analysis:** Determining key metrics such as median salaries for different roles and skills, and analyzing job-related trends (e.g., remote work salary comparison).
 * **Python/Pandas Proficiency:** Advanced use of the Pandas library for efficient data manipulation and analysis on a large dataset.
@@ -14,9 +14,10 @@ This project involves a comprehensive end-to-end analysis of job market data to 
 1.  [Key Insights & Executive Summary](#key-insights--executive-summary)
 2.  [Top In-Demand Skills Analysis](#top-in-demand-skills-analysis)
 3.  [Skill Value (Salary) Analysis](#skill-value-salary-analysis)
-4.  [Job Role & Compensation Analysis](#job-role--compensation-analysis)
-5.  [Skill Density & Remote Work Trends](#skill-density--remote-work-trends)
-6.  [Data Source](#data-source)
+4.  [Snapshots](#snapshots)
+5.  [Job Role & Compensation Analysis](#job-role--compensation-analysis)
+6.  [Skill Density & Remote Work Trends](#skill-density--remote-work-trends)
+7.  [Data Source](#data-source)
 
 ---
 
@@ -66,8 +67,18 @@ This analysis correlates specific skills with their associated median annual sal
 **Note:** The high median salary for certain niche skills (e.g., 'debian') suggests they are primarily sought for very senior or specialized roles, driving up their associated compensation.
 
 ---
+## 4. Snapshots
+ snapshot 1
+ <img width="1890" height="933" alt="Salary vs Skills" src="https://github.com/user-attachments/assets/c5069db7-61d3-45f4-92e2-49c63804377e" />
+ snapshot 2
+ <img width="1890" height="933" alt="Salary_Analysis" src="https://github.com/user-attachments/assets/d40ef00c-977a-4074-8dc2-e64c215077cb" />
+ snapshot 3
+ <img width="1885" height="920" alt="Skill_Salary_Analysis" src="https://github.com/user-attachments/assets/fe8f162f-4ae9-499c-b125-97f753af1a1c" />
+ snapshot 4
+ <img width="1879" height="949" alt="Top_Skill_Analysis" src="https://github.com/user-attachments/assets/ca6fa4b2-4aef-4b53-b4e8-e475ddf0301b" />
 
-## 4. Job Role & Compensation Analysis
+ 
+## 5. Job Role & Compensation Analysis
 
 This section provides a compensation benchmark for top data job roles based on median annual salary.
 
@@ -81,7 +92,7 @@ This section provides a compensation benchmark for top data job roles based on m
 
 ---
 
-## 5. Skill Density & Remote Work Trends
+## 6. Skill Density & Remote Work Trends
 
 This section looks at the average number of skills required per job role and the impact of remote work on salary.
 
@@ -104,5 +115,5 @@ This section looks at the average number of skills required per job role and the
 
 ---
 
-## 6. Data Source
-The analysis was conducted using the raw dataset: `data_jobs_salary_all.xlsx - Sheet1.csv`.
+## 7. Data Source
+The analysis was conducted using the raw dataset that's available in Resource folder for look.
